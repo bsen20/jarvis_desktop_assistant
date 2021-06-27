@@ -229,7 +229,7 @@ if __name__ == "__main__":
             try :
                 speak("What should I say?")
                 message = takeCommand().lower()
-                recipent = "sounaksen4@gmail.com"
+                recipent = input("Enter email of recipent")
                 sendEmail(recipent,message)
                 speak('Mail has been sent to bibek')
             except Exception as e :
