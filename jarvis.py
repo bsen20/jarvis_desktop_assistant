@@ -332,3 +332,22 @@ if __name__ == "__main__":
             pyautogui.press('launchmail')          
         elif 'well done' in query or "very good" in query or "good work" in query:
             speak('Its my pleasure Sir!')    
+        elif 'open gfg' in query:
+            speak('opening gfg') 
+            webbrowser.open('https://www.geeksforgeeks.org/')
+        elif 'open leetcode' in query:
+            speak("Opening leetcode")
+            webbrowser.open('https://leetcode.com/problemset/all/')
+        elif 'open codechef' in query:
+            speak("Opening leetcode")
+            webbrowser.open('https://www.codechef.com/')
+        elif 'open codeforces' in query:
+            speak("Opening leetcode")
+            webbrowser.open('https://codeforces.com/')
+        elif 'open hackerrank' in query:
+            speak("Opening harckernak")
+            webbrowser.open('https://www.hackerrank.com/')
+        elif 'open hacker earth' in query:
+            speak("Opening leetcode")
+            webbrowser.open('https://www.hackerearth.com/challenges/')
+
