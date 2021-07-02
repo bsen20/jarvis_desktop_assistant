@@ -339,15 +339,15 @@ if __name__ == "__main__":
             speak("Opening leetcode")
             webbrowser.open('https://leetcode.com/problemset/all/')
         elif 'open codechef' in query:
-            speak("Opening leetcode")
+            speak("Opening codechef")
             webbrowser.open('https://www.codechef.com/')
         elif 'open codeforces' in query:
-            speak("Opening leetcode")
+            speak("Opening codeforces")
             webbrowser.open('https://codeforces.com/')
         elif 'open hackerrank' in query:
             speak("Opening harckernak")
             webbrowser.open('https://www.hackerrank.com/')
         elif 'open hacker earth' in query:
-            speak("Opening leetcode")
+            speak("Opening hacker earth")
             webbrowser.open('https://www.hackerearth.com/challenges/')
 
